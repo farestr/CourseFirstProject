@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;700&display=swap');
+
+body{
+ line-height: 1.8;
+ color: #898f89;
+ font-size: 15px;
+ font-family: 'Hind', 'Siliguri';
+
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #11245a;
+}
+a{
+    font-weight: 700;
+    transition: all 0.4s ease;
+}
+img{
+    width: 100px;
+}
+#personal{
+    width: 180px;
+}
+
+
+small{
+    font-size: 12px;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+section{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.navbar{
+    border-bottom: 1px solid rgb(0,0,0,0.12);
+}
+.logo-text{
+    font-size: 23px;
+    text-transform: uppercase;
+    color: #11245a !important;
+}
+.navbar .nav-link{
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+}
+.navbar .nav-link.active{
+    color: darksalmon;
+}
+#home{
+    background: linear-gradient(rgb(26, 79, 225,0.8),rgb(10, 89, 134,0.5)),url(../img/cyber.jpg);
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+}
+#home h1 {
+    font-weight: 700;
+}
+#home p {
+  max-width: 500px;
+  margin: 12px auto;
+}
+.btn{
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+    border-radius: 0;
+
+}
+.btn-brand{
+    background-color: pink;
+    color: rgb(65, 61, 61);
+}
+.btn-brand:hover{
+    background-color: rgb(225, 126, 142);
+    color: rgb(65, 61, 61);
+
+}
+.section-intro{
+    text-align: center;
+    margin-bottom: 60px;
+}
+.section-intro .hline{
+    width: 80px;
+    height: 6px;
+    background-color: red;
+    margin: 16px auto;
+    
+}
